@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
     "name": "CopyPassPortal",
-    "version": "1.0",
+    "version": "1.16",
     "content_scripts": [
         {
-            "matches": ["https://portal.valorizza.com.br/"],
+            "matches": ["https://portal.valorizza.com.br/*"],
             "css": [
                 "style.css"
             ],

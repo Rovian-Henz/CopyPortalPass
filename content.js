@@ -1,6 +1,5 @@
 const interval = setInterval(() => {
     let element = document.querySelector("#TEXTSENHA_MPAGE");
-
     if (element) {
         clearInterval(interval);
         createButton(element);
@@ -26,7 +25,6 @@ function copyToClipboard(element) {
     var $temp = document.createElement("input");
     document.querySelector("body").appendChild($temp);
     $temp.value = pass;
-    alert("copy");
     $temp.select();
     document.execCommand("copy");
     $temp.remove();
